@@ -29,8 +29,43 @@ print(f"la cantidad de letras a que tengo es {contador}")
 #crear un programa que me cuente la cantidad de comas y me muestre sus índices.
 #OJO: Tienes que pedir al usuario.
 oración:str=input("escriba una oración:")
-contador=0
-for 
+contador:int=0
+for indice,letra in enumerate(oración):
+    if letra==",":
+        print(f"su indice es {indice}")
+        contador+=1
+print(f"la cantidad de comas es {contador}")
+          
+## Escribir un programa que pregunte al usuario su edad y muestre por pantalla todos los años que ha cumplido.
+edad:int=int(input("ingrese su edad:"))
+for i in range(1, edad+1):
+    print("Año",i, "cumplido")
+
+
+## crear un programa que me pida el nombre de tres personas y guarde en una variable global las ultimas letras de sus nombres
+### Mostrar por pantalla la variable global con las tres ultimas letras del nombre de cada persona.
+ultimas_letras=""
+for i in range(3):
+    nombre:str=input("Escribe tu nombre:")
+    last_lettter:str=nombre[-1]
+    ultimas_letras+=last_lettter
+print(ultimas_letras)
+
+## Crear un programa que muestre por terminal la siguiente figura:
+#a
+#ee
+#iii
+#oooo
+#uuuuu
+
+for i in range(5):
+    vocal:str=input("Escribir las vocales:")
+    repeticiones=["1","2","3","4","5"]
+for i in range(len(vocales)):
+    print(vocal [i]*repeticiones[i])
+
+
+
 
 
 # ejemplo de if - else 
