@@ -23,4 +23,36 @@ else:
             print(i, end="")
         else:
             print(i, end=",")
-            
+
+
+
+# Crear un programa que me muestre la tabla de multplicar del 1 al 5.
+for i in range(1,6):
+    for j in range(1,13):
+        print(f"{i} x {j}={i*j}")
+
+          
+# Crear un programa que pida un número y que muestre la tabla de multiplicar de ese numero
+numero=int(input("Ingrese un numero:"))
+print(f"Tabla de multiplicar de {numero}:")
+for i in range(1,13):
+    resultado=numero*i
+    print(f"{numero}x{i}={resultado}")
+
+# while
+#condicion=True
+#while condicion:
+    #print("hola")
+    #condicion=False5:
+    #print (contador)
+    #contador+=1
+#print(f"valor final [contador]")
+#nombre="josé"
+#nombre.upper() #convierte el texto en mayusculas
+
+#apellidos="ALVARES"
+#print(apellidos.lower()")    # convierte el texto en minuscula
+      
+
+#segundo_nombre="luis"
+#print(segundo_nombre.capitalize()) #convierte la primera letra en mayuscula

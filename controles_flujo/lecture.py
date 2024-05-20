@@ -79,4 +79,23 @@ edad_dos:int=int(input("escribe tu edad:"))
 respuesta:str="eres mayor" if edad_dos>=18 else "eres menor"
 print(respuesta)
 
+#  Ejemplo de while
+#condicion=True
+#while condicion:
+    #print("hola")
+    #condicion=False
+
+#condicion=True
+#while condicion:
+    #eval=input("desea continuar [S/N]:")
+    #if eval=="S":
+        #print("continuas en el bucle")
+        #continue
+    #else:
+        #print("se terminó el programa")
+        #condicion=False
+        #break
+
+#ejercicios de while
+# Crear un programa que pida la cantidad de notas que se debe registrar luego pedirá las notas e imprimirá el promedio.
 
